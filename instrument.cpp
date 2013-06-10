@@ -94,15 +94,14 @@ void Gopher::FillH7500AquisitionSoftware()
 void Gopher::FillSU8000ImageMode()
 {
     ui->imageMode->removeItem(1);
-    ui->imageMode->removeItem(1);
-    ui->imageMode->removeItem(1);
-    ui->imageMode->removeItem(1);
-    ui->imageMode->removeItem(1);
-    ui->imageMode->removeItem(1);
-    ui->imageMode->removeItem(1);
-    ui->imageMode->removeItem(1);
-    ui->imageMode->removeItem(1);
-    ui->imageMode->removeItem(1);
+    ui->imageMode->removeItem(2);
+    ui->imageMode->removeItem(3);
+    ui->imageMode->removeItem(4);
+    ui->imageMode->removeItem(5);
+    ui->imageMode->removeItem(6);
+    ui->imageMode->removeItem(7);
+    ui->imageMode->removeItem(8);
+    ui->imageMode->removeItem(9);
 
     ui->imageMode->insertItem(5,"Stem 2D");
     ui->imageMode->insertItem(7,"SEM 2D");
@@ -131,15 +130,14 @@ void Gopher::FillSU8000AquisitionSoftware()
 void Gopher::FillS5200ImageMode()
 {
     ui->imageMode->removeItem(1);
-    ui->imageMode->removeItem(1);
-    ui->imageMode->removeItem(1);
-    ui->imageMode->removeItem(1);
-    ui->imageMode->removeItem(1);
-    ui->imageMode->removeItem(1);
-    ui->imageMode->removeItem(1);
-    ui->imageMode->removeItem(1);
-    ui->imageMode->removeItem(1);
-    ui->imageMode->removeItem(1);
+    ui->imageMode->removeItem(2);
+    ui->imageMode->removeItem(3);
+    ui->imageMode->removeItem(4);
+    ui->imageMode->removeItem(5);
+    ui->imageMode->removeItem(6);
+    ui->imageMode->removeItem(7);
+    ui->imageMode->removeItem(8);
+    ui->imageMode->removeItem(9);
 
     ui->imageMode->insertItem(7,"SEM 2D");
     ui->imageMode->insertItem(8,"Cryo-SEM");
@@ -168,15 +166,14 @@ void Gopher::FillS5200AquisitionSoftware()
 void Gopher::FillTecnaiAMTImageMode()
 {
     ui->imageMode->removeItem(1);
-    ui->imageMode->removeItem(1);
-    ui->imageMode->removeItem(1);
-    ui->imageMode->removeItem(1);
-    ui->imageMode->removeItem(1);
-    ui->imageMode->removeItem(1);
-    ui->imageMode->removeItem(1);
-    ui->imageMode->removeItem(1);
-    ui->imageMode->removeItem(1);
-    ui->imageMode->removeItem(1);
+    ui->imageMode->removeItem(2);
+    ui->imageMode->removeItem(3);
+    ui->imageMode->removeItem(4);
+    ui->imageMode->removeItem(5);
+    ui->imageMode->removeItem(6);
+    ui->imageMode->removeItem(7);
+    ui->imageMode->removeItem(8);
+    ui->imageMode->removeItem(9);
 
     ui->imageMode->insertItem(1,"TEM 2D");
     ui->imageMode->insertItem(2,"TEM Tomo");
@@ -210,15 +207,14 @@ void Gopher::FillTecnaiAMTAquisitionSoftware()
 void Gopher::FillTecnaiTomoImageMode()
 {
     ui->imageMode->removeItem(1);
-    ui->imageMode->removeItem(1);
-    ui->imageMode->removeItem(1);
-    ui->imageMode->removeItem(1);
-    ui->imageMode->removeItem(1);
-    ui->imageMode->removeItem(1);
-    ui->imageMode->removeItem(1);
-    ui->imageMode->removeItem(1);
-    ui->imageMode->removeItem(1);
-    ui->imageMode->removeItem(1);
+    ui->imageMode->removeItem(2);
+    ui->imageMode->removeItem(3);
+    ui->imageMode->removeItem(4);
+    ui->imageMode->removeItem(5);
+    ui->imageMode->removeItem(6);
+    ui->imageMode->removeItem(7);
+    ui->imageMode->removeItem(8);
+    ui->imageMode->removeItem(9);
 
     ui->imageMode->insertItem(2,"TEM Tomo");
     ui->imageMode->insertItem(4,"Cryo-TEM Tomo");
@@ -249,15 +245,14 @@ void Gopher::FillTecnaiTomoAquisitionSoftware()
 void Gopher::FillKriosImageMode()
 {
     ui->imageMode->removeItem(1);
-    ui->imageMode->removeItem(1);
-    ui->imageMode->removeItem(1);
-    ui->imageMode->removeItem(1);
-    ui->imageMode->removeItem(1);
-    ui->imageMode->removeItem(1);
-    ui->imageMode->removeItem(1);
-    ui->imageMode->removeItem(1);
-    ui->imageMode->removeItem(1);
-    ui->imageMode->removeItem(1);
+    ui->imageMode->removeItem(2);
+    ui->imageMode->removeItem(3);
+    ui->imageMode->removeItem(4);
+    ui->imageMode->removeItem(5);
+    ui->imageMode->removeItem(6);
+    ui->imageMode->removeItem(7);
+    ui->imageMode->removeItem(8);
+    ui->imageMode->removeItem(9);
 
     ui->imageMode->insertItem(1,"TEM 2D");
     ui->imageMode->insertItem(2,"TEM Tomo");
@@ -296,15 +291,14 @@ void Gopher::FillKriosAquisitionSoftware()
 void Gopher::Fill510MetaImageMode()
 {
     ui->imageMode->removeItem(1);
-    ui->imageMode->removeItem(1);
-    ui->imageMode->removeItem(1);
-    ui->imageMode->removeItem(1);
-    ui->imageMode->removeItem(1);
-    ui->imageMode->removeItem(1);
-    ui->imageMode->removeItem(1);
-    ui->imageMode->removeItem(1);
-    ui->imageMode->removeItem(1);
-    ui->imageMode->removeItem(1);
+    ui->imageMode->removeItem(2);
+    ui->imageMode->removeItem(3);
+    ui->imageMode->removeItem(4);
+    ui->imageMode->removeItem(5);
+    ui->imageMode->removeItem(6);
+    ui->imageMode->removeItem(7);
+    ui->imageMode->removeItem(8);
+    ui->imageMode->removeItem(9);
 
     ui->imageMode->insertItem(9,"Confocal");
 }

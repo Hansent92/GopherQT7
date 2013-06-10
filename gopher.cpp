@@ -130,68 +130,6 @@ void Gopher::on_Instrument_currentIndexChanged(int index)
     }
 }
 
-void Gopher::on_imageMode_currentIndexChanged(int index)
-{
-    //Called to show what needs filled out
-    QIcon pointer(QIcon("Image/Warning_icon.png"));
-
-    //Switch between the Image Modes
-    switch (index)
-    {
-    case 0://Image Mode
-    {
-        FillImageMode();
-    }
-        break;
-    case 1://TEM 2D
-    {
-        FillTEM2D();
-    }
-        break;
-    case 2://TEM Tomo
-    {
-        FillTEMTomo();
-    }
-        break;
-    case 3://Cryo-TEM 2D / Vitrobot Settings
-    {
-        FillCryoTEM2D();
-    }
-        break;
-    case 4://Cryo-TEM Tomo / Vitrobot Settings
-    {
-        FillCryoTEMTomo();
-    }
-        break;
-    case 5://Stem 2D
-    {
-        FillStem2D();
-    }
-        break;
-    case 6://Stem Tomo
-    {
-        FillStemTomo();
-    }
-        break;
-    case 7://SEM 2D
-    {
-        FillSEM2D();
-    }
-        break;
-    case 8://Cryo-SEM / Vitrobot Settings
-    {
-        FillCryoSEM();
-    }
-        break;
-    case 9://Confocal
-    {
-       FillConfocal();
-    }
-        break;
-
-    }
-}
-
 void Gopher::on_Done_clicked()
 {
     switch (ui->imageMode->currentIndex())
@@ -361,5 +299,67 @@ void Gopher::on_actionSave_triggered()
 void Gopher::on_actionMyRTB_triggered()
 {
     QDesktopServices::openUrl(QUrl("https://myrtb.nih.gov"));
+}
+
+void Gopher::on_imageMode_currentIndexChanged(int index)
+{
+    //Called to show what needs filled out
+    QIcon pointer(QIcon("Image/Warning_icon.png"));
+
+    //Switch between the Image Modes
+    switch (index)
+    {
+    case 0://Image Mode
+    {
+        FillImageMode();
+    }
+        break;
+    case 1://TEM 2D
+    {
+        FillTEM2D();
+    }
+        break;
+    case 2://TEM Tomo
+    {
+        FillTEMTomo();
+    }
+        break;
+    case 3://Cryo-TEM 2D / Vitrobot Settings
+    {
+        FillCryoTEM2D();
+    }
+        break;
+    case 4://Cryo-TEM Tomo / Vitrobot Settings
+    {
+        FillCryoTEMTomo();
+    }
+        break;
+    case 5://Stem 2D
+    {
+        FillStem2D();
+    }
+        break;
+    case 6://Stem Tomo
+    {
+        FillStemTomo();
+    }
+        break;
+    case 7://SEM 2D
+    {
+        FillSEM2D();
+    }
+        break;
+    case 8://Cryo-SEM / Vitrobot Settings
+    {
+        FillCryoSEM();
+    }
+        break;
+    case 9://Confocal
+    {
+       FillConfocal();
+    }
+        break;
+
+    }
 }
 
