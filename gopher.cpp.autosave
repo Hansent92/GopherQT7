@@ -30,8 +30,8 @@ Gopher::Gopher(QWidget *parent) :
     ui->dateTimeEdit->setTime(QTime::currentTime());
 
     //Removes Image mode/Camera/Acquisition Software opinions
-    ui->Instrument->setCurrentIndex(1);
-    ui->Instrument->setCurrentIndex(0);
+//    ui->Instrument->setCurrentIndex(1);
+//    ui->Instrument->setCurrentIndex(0);
 }
 
 Gopher::~Gopher()
