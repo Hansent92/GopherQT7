@@ -25,7 +25,7 @@ Gopher::Gopher(QWidget *parent) :
 {
     ui->setupUi(this);
 
-    // sets Data and Time
+    // sets Date and Time
     ui->dateTimeEdit->setDate(QDate::currentDate());
     ui->dateTimeEdit->setTime(QTime::currentTime());
 
@@ -137,23 +137,23 @@ void Gopher::on_Done_clicked()
     case 0:
     {
         // warning for saving a image mode
-        QMessageBox::warning(0, QString("Gopher"), QString("Please Select Image Mode")
+        QMessageBox::critical(0, QString("Gopher"), QString("Instrument / Image mode not selected")
                              , QMessageBox::Ok);
     }
         break;
     case 1://TEM 2D
     {
-       SaveTEM2D();
+        SaveTEM2D();
     }
         break;
     case 2://TEM Tomo
     {
-       SaveTEMTomo();
+        SaveTEMTomo();
     }
         break;
     case 3://Cryo-TEM 2D
     {
-       SaveCryoTEM2D();
+        SaveCryoTEM2D();
     }
         break;
     case 4://Cryo-TEM Tomo
@@ -192,7 +192,7 @@ void Gopher::on_Done_clicked()
 void Gopher::on_actionHedwig_triggered()
 {
     // link to Hedwig
-    QDesktopServices::openUrl(QUrl("http://www.google.com"));
+    QDesktopServices::openUrl(QUrl("http://hedwig.niaid.nih.gov"));
 }
 
 void Gopher::on_actionImport_triggered()
@@ -209,11 +209,11 @@ void Gopher::on_actionImport_triggered()
     list = input.object();
     //Info
     {
-       ImportInfo();
+        ImportInfo();
     }
     //TEM 2D
     {
-       ImportTEM2D();
+        ImportTEM2D();
     }
     //TEM Tomo
     {
@@ -223,18 +223,18 @@ void Gopher::on_actionImport_triggered()
     {
         //Cryo-Tem Tab
         {
-          ImportCryoTEM();
+            ImportCryoTEM();
         }
         //Vitrobot Settings Tab
         {
-           ImportCryoTEMVitrobotSettings();
+            ImportCryoTEMVitrobotSettings();
         }
     }
     //Cryo-Tem Tomo
     {
         //Cryo-Tem Tomo Tab
         {
-           ImportCryoTEMTomo();
+            ImportCryoTEMTomo();
         }
         //Vitrobot Settings Tab
         {
@@ -243,7 +243,7 @@ void Gopher::on_actionImport_triggered()
     }
     //Stem 2D
     {
-       ImportStem2D();
+        ImportStem2D();
     }
     //Stem Tomo
     {
@@ -251,17 +251,17 @@ void Gopher::on_actionImport_triggered()
     }
     //SEM
     {
-       ImportSEM();
+        ImportSEM();
     }
     //Cryo-SEM
     {
         //Cryo-SEM Tab
         {
-           ImportCryoSEM();
+            ImportCryoSEM();
         }
         //vitrobot Tab
         {
-          ImportCryoSEMVitrobotSettings();
+            ImportCryoSEMVitrobotSettings();
         }
     }
     //Confocal
@@ -282,7 +282,10 @@ void Gopher::on_actionExit_triggered()
 
 void Gopher::on_actionAbout_triggered()
 {
-    QMessageBox::information(0, QString("Gopher"), QString("This program is brought to you by the RML staff.")
+    QMessageBox::information(0, QString("Gopher"), QString("This program is brought to you by the RML staff.\n"
+                                                           "If There are any errors please contact IT.\n"
+                                                           "Thank you for using Gopher.\n"
+                                                           "Have a nice day.")
                              , QMessageBox::Ok);
 }
 
@@ -356,11 +359,9 @@ void Gopher::on_imageMode_currentIndexChanged(int index)
         break;
     case 9://Confocal
     {
-       FillConfocal();
+        FillConfocal();
     }
         break;
 
     }
 }
-
-

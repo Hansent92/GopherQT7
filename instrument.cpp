@@ -31,6 +31,7 @@ void Gopher::FillInstrumentsImageMode()
 //    ui->imageMode->removeItem(1);
 //    ui->imageMode->removeItem(1);
 //    ui->imageMode->removeItem(1);
+
     QVariant d(0); //disables
     QVariant e(1 | 32); //enables
 

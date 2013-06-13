@@ -90,10 +90,10 @@ void Gopher::ImportCryoTEM()
     QJsonObject cryoTEM2D = QJsonValue(list.value("Cryo-TEM 2D")).toObject();
 
     QString doseVal = QJsonValue(cryoTEM2D.value("Dose")).toString();
-    ui->Dose_CryoTEM2D_2->setText(doseVal);
+    ui->Dose_Text_CryoTEM2D_2->setText(doseVal);
 
     QString efssVal = QJsonValue(cryoTEM2D.value("Energy Filter Slit Size")).toString();
-    ui->EnergyFilterSlitSize_CryoTEM2D_3->setText(efssVal);
+    ui->EnergyFilterSlitSize_Text_CryoTEM2D_3->setText(efssVal);
 
     QString voltageVal = QJsonValue(cryoTEM2D.value("Voltage")).toString();
     ui->Voltage_Text_CryoTEM2D_2->setText(voltageVal);
