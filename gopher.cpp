@@ -1,5 +1,6 @@
 ﻿#include "gopher.h"
 #include "ui_gopher.h"
+#include "importweb.h"
 
 #include <QFile>
 #include <QFileDialog>
@@ -25,13 +26,16 @@ Gopher::Gopher(QWidget *parent) :
 {
     ui->setupUi(this);
 
-    // sets Date and Time
+    // sets Data and Time
     ui->dateTimeEdit->setDate(QDate::currentDate());
     ui->dateTimeEdit->setTime(QTime::currentTime());
 
     //Removes Image mode/Camera/Acquisition Software opinions
     ui->Instrument->setCurrentIndex(1);
     ui->Instrument->setCurrentIndex(0);
+
+    importWeb w;
+    w.exec();
 }
 
 Gopher::~Gopher()
@@ -137,7 +141,7 @@ void Gopher::on_Done_clicked()
     case 0:
     {
         // warning for saving a image mode
-        QMessageBox::critical(0, QString("Gopher"), QString("Instrument / Image mode not selected")
+        QMessageBox::warning(0, QString("Gopher"), QString("Please Select Image Mode")
                              , QMessageBox::Ok);
     }
         break;
@@ -192,7 +196,7 @@ void Gopher::on_Done_clicked()
 void Gopher::on_actionHedwig_triggered()
 {
     // link to Hedwig
-    QDesktopServices::openUrl(QUrl("http://hedwig.niaid.nih.gov"));
+    QDesktopServices::openUrl(QUrl("http://www.google.com"));
 }
 
 void Gopher::on_actionImport_triggered()
@@ -282,10 +286,7 @@ void Gopher::on_actionExit_triggered()
 
 void Gopher::on_actionAbout_triggered()
 {
-    QMessageBox::information(0, QString("Gopher"), QString("This program is brought to you by the RML staff.\n"
-                                                           "If There are any errors please contact IT.\n"
-                                                           "Thank you for using Gopher.\n"
-                                                           "Have a nice day.")
+    QMessageBox::information(0, QString("Gopher"), QString("This program is brought to you by the RML staff.")
                              , QMessageBox::Ok);
 }
 
@@ -365,3 +366,5 @@ void Gopher::on_imageMode_currentIndexChanged(int index)
 
     }
 }
+
+

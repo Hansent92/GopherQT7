@@ -17,10 +17,13 @@ SOURCES += main.cpp\
     instrument.cpp \
     imagemode.cpp \
     save.cpp \
-    import.cpp
+    import.cpp \
+    importweb.cpp
 
-HEADERS  += gopher.h
+HEADERS  += gopher.h \
+    importweb.h
 
-FORMS    += gopher.ui
+FORMS    += gopher.ui \
+    importweb.ui
 
 RESOURCES +=
