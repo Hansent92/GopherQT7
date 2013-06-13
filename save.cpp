@@ -59,7 +59,8 @@ void Gopher::SaveTEM2D()
         file.close();
     }
 
-    QMessageBox::information(0, QString("Gopher"), QString("You Were Successful!")
+    QMessageBox::information(0, QString("Gopher"), QString("Saving was Successful\n"
+                                                           "Somthing must be wrong!")
                              , QMessageBox::Ok);
     exit(0);
 }
@@ -106,7 +107,8 @@ void Gopher::SaveTEMTomo()
         file.close();
     }
 
-    QMessageBox::information(0, QString("Gopher"), QString("You Were Successful!")
+    QMessageBox::information(0, QString("Gopher"), QString("Saving was Successful\n"
+                                                           "Somthing must be wrong!")
                              , QMessageBox::Ok);
     exit(0);
 }
@@ -162,7 +164,8 @@ void Gopher::SaveCryoTEM2D()
         file.close();
     }
 
-    QMessageBox::information(0, QString("Gopher"), QString("You Were Successful!")
+    QMessageBox::information(0, QString("Gopher"), QString("Saving was Successful\n"
+                                                           "Somthing must be wrong!")
                              , QMessageBox::Ok);
     exit(0);
 }
@@ -220,7 +223,8 @@ void Gopher::SaveCryoTomo()
         file.close();
     }
 
-    QMessageBox::information(0, QString("Gopher"), QString("You Were Successful!")
+    QMessageBox::information(0, QString("Gopher"), QString("Saving was Successful\n"
+                                                           "Somthing must be wrong!")
                              , QMessageBox::Ok);
     exit(0);
 }
@@ -271,7 +275,8 @@ void Gopher::SaveStem2D()
         file.close();
     }
 
-    QMessageBox::information(0, QString("Gopher"), QString("You Were Successful!")
+    QMessageBox::information(0, QString("Gopher"), QString("Saving was Successful\n"
+                                                           "Somthing must be wrong!")
                              , QMessageBox::Ok);
     exit(0);
 }
@@ -323,7 +328,8 @@ void Gopher::SaveStemTomo()
         file.close();
     }
 
-    QMessageBox::information(0, QString("Gopher"), QString("You Were Successful!")
+    QMessageBox::information(0, QString("Gopher"), QString("Saving was Successful\n"
+                                                           "Somthing must be wrong!")
                              , QMessageBox::Ok);
     exit(0);
 }
@@ -368,7 +374,8 @@ void Gopher::SaveSEM2D()
         file.close();
     }
 
-    QMessageBox::information(0, QString("Gopher"), QString("You Were Successful!")
+    QMessageBox::information(0, QString("Gopher"), QString("Saving was Successful\n"
+                                                           "Somthing must be wrong!")
                              , QMessageBox::Ok);
     exit(0);
 }
@@ -434,7 +441,8 @@ void Gopher::SaveCryoSEM()
         file.close();
     }
 
-    QMessageBox::information(0, QString("Gopher"), QString("You Were Successful!")
+    QMessageBox::information(0, QString("Gopher"), QString("Saving was Successful\n"
+                                                           "Somthing must be wrong!")
                              , QMessageBox::Ok);
     exit(0);
 }
@@ -475,7 +483,8 @@ void Gopher::SaveConfocal()
         file.close();
     }
 
-    QMessageBox::information(0, QString("Gopher"), QString("You Were Successful!")
+    QMessageBox::information(0, QString("Gopher"), QString("Saving was Successful\n"
+                                                           "Somthing must be wrong!")
                              , QMessageBox::Ok);
     exit(0);
 }

@@ -55,7 +55,6 @@ void Gopher::FillInstrumentsImageMode()
     ui->imageMode->model()->setData(index9, d, Qt::UserRole -1);
 }
 
-
 void Gopher::FillInstrumentsCameras()
 {
     ui->Camera->removeItem(1);
@@ -397,23 +396,23 @@ void Gopher::FillKriosImageMode()
     QVariant e(1 | 32); //enables
 
     QModelIndex index1 = ui->imageMode->model()->index(1,0);//TEM 2D
-    ui->imageMode->model()->setData(index1, d, Qt::UserRole -1);
+    ui->imageMode->model()->setData(index1, e, Qt::UserRole -1);
     QModelIndex index2 = ui->imageMode->model()->index(2,0);//TEM Tomp
-    ui->imageMode->model()->setData(index2, d, Qt::UserRole -1);
+    ui->imageMode->model()->setData(index2, e, Qt::UserRole -1);
     QModelIndex index3 = ui->imageMode->model()->index(3,0);//Cryo-TEM 2D
-    ui->imageMode->model()->setData(index3, d, Qt::UserRole -1);
+    ui->imageMode->model()->setData(index3, e, Qt::UserRole -1);
     QModelIndex index4 = ui->imageMode->model()->index(4,0);//Cryo-TEM Tomo
-    ui->imageMode->model()->setData(index4, d, Qt::UserRole -1);
+    ui->imageMode->model()->setData(index4, e, Qt::UserRole -1);
     QModelIndex index5 = ui->imageMode->model()->index(5,0);//Stem 2D
-    ui->imageMode->model()->setData(index5, d, Qt::UserRole -1);
+    ui->imageMode->model()->setData(index5, e, Qt::UserRole -1);
     QModelIndex index6 = ui->imageMode->model()->index(6,0);//Stem Tomo
-    ui->imageMode->model()->setData(index6, d, Qt::UserRole -1);
+    ui->imageMode->model()->setData(index6, e, Qt::UserRole -1);
     QModelIndex index7 = ui->imageMode->model()->index(7,0);//SEM 2D
-    ui->imageMode->model()->setData(index7, e, Qt::UserRole -1);
+    ui->imageMode->model()->setData(index7, d, Qt::UserRole -1);
     QModelIndex index8 = ui->imageMode->model()->index(8,0);//Cryo-SEM
-    ui->imageMode->model()->setData(index8, e, Qt::UserRole -1);
+    ui->imageMode->model()->setData(index8, d, Qt::UserRole -1);
     QModelIndex index9 = ui->imageMode->model()->index(9,0);//Confocal
-    ui->imageMode->model()->setData(index9, e, Qt::UserRole -1);
+    ui->imageMode->model()->setData(index9, d, Qt::UserRole -1);
 }
 
 void Gopher::FillKriosCamera()

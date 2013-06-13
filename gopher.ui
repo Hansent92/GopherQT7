@@ -1012,8 +1012,8 @@ p, li { white-space: pre-wrap; }
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>98</width>
-             <height>28</height>
+             <width>713</width>
+             <height>552</height>
             </rect>
            </property>
            <attribute name="label">
@@ -1116,8 +1116,8 @@ p, li { white-space: pre-wrap; }
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>98</width>
-             <height>28</height>
+             <width>713</width>
+             <height>552</height>
             </rect>
            </property>
            <attribute name="label">
@@ -1250,8 +1250,8 @@ p, li { white-space: pre-wrap; }
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>98</width>
-             <height>28</height>
+             <width>713</width>
+             <height>525</height>
             </rect>
            </property>
            <attribute name="label">
@@ -1363,8 +1363,8 @@ p, li { white-space: pre-wrap; }
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>98</width>
-             <height>28</height>
+             <width>713</width>
+             <height>525</height>
             </rect>
            </property>
            <attribute name="label">
@@ -1470,15 +1470,15 @@ p, li { white-space: pre-wrap; }
            <number>5</number>
           </property>
           <property name="currentIndex">
-           <number>1</number>
+           <number>0</number>
           </property>
           <widget class="QWidget" name="page_15">
            <property name="geometry">
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>98</width>
-             <height>28</height>
+             <width>713</width>
+             <height>525</height>
             </rect>
            </property>
            <attribute name="label">
@@ -1590,8 +1590,8 @@ p, li { white-space: pre-wrap; }
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>98</width>
-             <height>28</height>
+             <width>713</width>
+             <height>525</height>
             </rect>
            </property>
            <attribute name="label">
@@ -1734,8 +1734,8 @@ p, li { white-space: pre-wrap; }
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>98</width>
-             <height>28</height>
+             <width>713</width>
+             <height>552</height>
             </rect>
            </property>
            <attribute name="label">
@@ -1885,8 +1885,8 @@ p, li { white-space: pre-wrap; }
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>98</width>
-             <height>28</height>
+             <width>713</width>
+             <height>525</height>
             </rect>
            </property>
            <attribute name="label">
@@ -2057,8 +2057,8 @@ p, li { white-space: pre-wrap; }
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>98</width>
-             <height>28</height>
+             <width>713</width>
+             <height>552</height>
             </rect>
            </property>
            <attribute name="label">
@@ -2152,8 +2152,8 @@ p, li { white-space: pre-wrap; }
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>98</width>
-             <height>28</height>
+             <width>713</width>
+             <height>525</height>
             </rect>
            </property>
            <attribute name="label">
@@ -2265,8 +2265,8 @@ p, li { white-space: pre-wrap; }
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>98</width>
-             <height>28</height>
+             <width>713</width>
+             <height>525</height>
             </rect>
            </property>
            <attribute name="label">
@@ -2532,8 +2532,8 @@ p, li { white-space: pre-wrap; }
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>98</width>
-             <height>28</height>
+             <width>713</width>
+             <height>552</height>
             </rect>
            </property>
            <attribute name="label">
@@ -2590,18 +2590,6 @@ p, li { white-space: pre-wrap; }
     <addaction name="separator"/>
     <addaction name="actionExit"/>
    </widget>
-   <widget class="QMenu" name="menuEdit">
-    <property name="title">
-     <string>Edit</string>
-    </property>
-    <addaction name="actionUndo"/>
-    <addaction name="actionRedo"/>
-    <addaction name="separator"/>
-    <addaction name="actionCut"/>
-    <addaction name="actionCopy"/>
-    <addaction name="actionPaste"/>
-    <addaction name="separator"/>
-   </widget>
    <widget class="QMenu" name="menuHelp">
     <property name="title">
      <string>Help</string>
@@ -2609,7 +2597,6 @@ p, li { white-space: pre-wrap; }
     <addaction name="actionAbout"/>
    </widget>
    <addaction name="menuFile"/>
-   <addaction name="menuEdit"/>
    <addaction name="menuHelp"/>
   </widget>
   <widget class="QToolBar" name="mainToolBar">
@@ -2688,51 +2675,6 @@ p, li { white-space: pre-wrap; }
     <string>Exit</string>
    </property>
   </action>
-  <action name="actionUndo">
-   <property name="icon">
-    <iconset>
-     <normaloff>Image/editundo.png</normaloff>Image/editundo.png</iconset>
-   </property>
-   <property name="text">
-    <string>Undo</string>
-   </property>
-  </action>
-  <action name="actionRedo">
-   <property name="icon">
-    <iconset>
-     <normaloff>Image/editredo.png</normaloff>Image/editredo.png</iconset>
-   </property>
-   <property name="text">
-    <string>Redo</string>
-   </property>
-  </action>
-  <action name="actionCut">
-   <property name="icon">
-    <iconset>
-     <normaloff>Image/Cut-icon.png</normaloff>Image/Cut-icon.png</iconset>
-   </property>
-   <property name="text">
-    <string>Cut</string>
-   </property>
-  </action>
-  <action name="actionCopy">
-   <property name="icon">
-    <iconset>
-     <normaloff>Image/copy_icon.jpg</normaloff>Image/copy_icon.jpg</iconset>
-   </property>
-   <property name="text">
-    <string>Copy</string>
-   </property>
-  </action>
-  <action name="actionPaste">
-   <property name="icon">
-    <iconset>
-     <normaloff>Image/paste_icon.jpg</normaloff>Image/paste_icon.jpg</iconset>
-   </property>
-   <property name="text">
-    <string>Paste</string>
-   </property>
-  </action>
   <action name="actionAbout">
    <property name="icon">
     <iconset>
@@ -2753,6 +2695,92 @@ p, li { white-space: pre-wrap; }
   </action>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
+ <tabstops>
+  <tabstop>DataTakenBy</tabstop>
+  <tabstop>dateTimeEdit</tabstop>
+  <tabstop>ProjectID</tabstop>
+  <tabstop>SubsetID</tabstop>
+  <tabstop>Instrument</tabstop>
+  <tabstop>imageMode</tabstop>
+  <tabstop>Camera</tabstop>
+  <tabstop>AquisitionSoftware</tabstop>
+  <tabstop>DescriptiveTitleText</tabstop>
+  <tabstop>Specimen_Organism</tabstop>
+  <tabstop>SamplePrepText</tabstop>
+  <tabstop>NotesText</tabstop>
+  <tabstop>Done</tabstop>
+  <tabstop>Cancel</tabstop>
+  <tabstop>Welcome</tabstop>
+  <tabstop>EnergyFilterSlitSize_Text_TEM2D_2</tabstop>
+  <tabstop>Voltage_Text_TEM2D_2</tabstop>
+  <tabstop>CsValue_Text_TEM2D_2</tabstop>
+  <tabstop>MaxSpecimenThickness_Text_TEMTomo_2</tabstop>
+  <tabstop>MaxFiducialSize_Text_TEMTomo_2</tabstop>
+  <tabstop>EnergyFilterSlitSize_Text_TEMTomo_2</tabstop>
+  <tabstop>Voltage_Text_TEMTomo_2</tabstop>
+  <tabstop>CsValue_Text_TEMTomo_2</tabstop>
+  <tabstop>Dose_Text_CryoTEM2D_2</tabstop>
+  <tabstop>EnergyFilterSlitSize_Text_CryoTEM2D_3</tabstop>
+  <tabstop>Voltage_Text_CryoTEM2D_2</tabstop>
+  <tabstop>CsValue_Text_CryoTEM2D_2</tabstop>
+  <tabstop>MaxSpecimenThickness_Text_CryoTomo_2</tabstop>
+  <tabstop>MaxFidecialSize_Text_CryoTomo_2</tabstop>
+  <tabstop>Dose_Text_CryoTomo_2</tabstop>
+  <tabstop>EnergyFilterSlitSize_Text_CryoTomo_2</tabstop>
+  <tabstop>CsValue_Text_CryoTomo_2</tabstop>
+  <tabstop>Voltage_Text_CryoTomo_2</tabstop>
+  <tabstop>SpotSizeText_STEM2D_2</tabstop>
+  <tabstop>DwellTimeText_STEM2D_2</tabstop>
+  <tabstop>I_Text_STEM2D_2</tabstop>
+  <tabstop>ConvergenceAngle_Text_STEM2D_2</tabstop>
+  <tabstop>Microprobe_STEM2D_2</tabstop>
+  <tabstop>NanoProbe_STEM2D_2</tabstop>
+  <tabstop>CameraLengthText_STEM2D_2</tabstop>
+  <tabstop>NominalMagnification_Text_STEM2D_2</tabstop>
+  <tabstop>MaxSectionThickness_Text_STEMTomo_2</tabstop>
+  <tabstop>MaxFiducialSize_Text_STEMTomo_2</tabstop>
+  <tabstop>SpotSize_Text_STEMTomo_2</tabstop>
+  <tabstop>DwellTime_Text_STEMTomo_2</tabstop>
+  <tabstop>I_Text_STEMTomo_2</tabstop>
+  <tabstop>ConvergenceAngle_Text_STEMTomo_2</tabstop>
+  <tabstop>Microprobe_STEMTomo_2</tabstop>
+  <tabstop>NanoProbe_STEMTomo_2</tabstop>
+  <tabstop>Detector_DropBox_STEMTomo_2</tabstop>
+  <tabstop>CameraLength_Text_STEMTomo_2</tabstop>
+  <tabstop>Coating_DropBox_SEM_2</tabstop>
+  <tabstop>CoatingThickness_Text_SEM_2</tabstop>
+  <tabstop>BlotForceText_VitrobotSettings_4</tabstop>
+  <tabstop>BlotText_VitrobotSettings_4</tabstop>
+  <tabstop>DrainText_VitrobotSettings_4</tabstop>
+  <tabstop>WaitText_VitrobotSettings_4</tabstop>
+  <tabstop>HumiditySetText_VitrobotSettings_4</tabstop>
+  <tabstop>ActualText_VitrobotSettings_4</tabstop>
+  <tabstop>PrimaryCoating_DropBox_CryoSEM_2</tabstop>
+  <tabstop>primaryCoatingAngle_Text</tabstop>
+  <tabstop>primaryCoatingAngle_Rotation</tabstop>
+  <tabstop>PrimaryCoatingThickness_Text_CryoSEM_2</tabstop>
+  <tabstop>SecondaryCoating_DropBox_CryoSEM_2</tabstop>
+  <tabstop>secondaryCoatingAngle_Text</tabstop>
+  <tabstop>secondaryCoatingAngle_Rotation</tabstop>
+  <tabstop>SecondaryCoatingThickness_Text_CryoSEM_2</tabstop>
+  <tabstop>PrimarySublimationTime_Text_CryoSEM_2</tabstop>
+  <tabstop>PrimarySublimationTemp_Text_CryoSEM_2</tabstop>
+  <tabstop>SecondarySublimationTime_Text_CryoSEM_2</tabstop>
+  <tabstop>SecondarySublimationTemp_Text_CryoSEM_2</tabstop>
+  <tabstop>ViewingTemp_Text_CryoSEM_2</tabstop>
+  <tabstop>BlotForceText_VitrobotSettings_2</tabstop>
+  <tabstop>BlotText_VitrobotSettings_2</tabstop>
+  <tabstop>DrainText_VitrobotSettings_2</tabstop>
+  <tabstop>WaitText_VitrobotSettings_2</tabstop>
+  <tabstop>HumiditySetText_VitrobotSettings_2</tabstop>
+  <tabstop>ActualText_VitrobotSettings_2</tabstop>
+  <tabstop>BlotForceText_VitrobotSettings_3</tabstop>
+  <tabstop>BlotText_VitrobotSettings_3</tabstop>
+  <tabstop>DrainText_VitrobotSettings_3</tabstop>
+  <tabstop>WaitText_VitrobotSettings_3</tabstop>
+  <tabstop>HumiditySetText_VitrobotSettings_3</tabstop>
+  <tabstop>ActualText_VitrobotSettings_3</tabstop>
+ </tabstops>
  <resources/>
  <connections/>
 </ui>
