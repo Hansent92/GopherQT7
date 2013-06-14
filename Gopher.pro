@@ -13,13 +13,10 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        gopher.cpp \
-    importweb.cpp
+        gopher.cpp
 
-HEADERS  += gopher.h \
-    importweb.h
+HEADERS  += gopher.h
 
-FORMS    += gopher.ui \
-    importweb.ui
+FORMS    += gopher.ui
 
 RESOURCES +=

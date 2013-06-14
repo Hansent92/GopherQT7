@@ -1,6 +1,5 @@
 ﻿#include "gopher.h"
 #include "ui_gopher.h"
-#include "importweb.h"
 
 #include <QFile>
 #include <QFileDialog>
@@ -33,9 +32,6 @@ Gopher::Gopher(QWidget *parent) :
     //Removes Image mode/Camera/Acquisition Software opinions
     ui->Instrument->setCurrentIndex(1);
     ui->Instrument->setCurrentIndex(0);
-
-    importWeb w;
-    w.exec();
 }
 
 Gopher::~Gopher()
@@ -1448,4 +1444,7 @@ void Gopher::on_imageMode_currentIndexChanged(int index)
     }
 }
 
-
+void Gopher::on_pushButton_clicked()
+{
+    close();
+}

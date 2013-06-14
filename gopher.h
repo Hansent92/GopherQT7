@@ -48,6 +48,8 @@ private slots:
 
     void on_actionMyRTB_triggered();
 
+    void on_pushButton_clicked();
+
 private:
     Ui::Gopher* ui;
 
