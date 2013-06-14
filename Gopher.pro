@@ -13,9 +13,11 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        gopher.cpp
+        gopher.cpp \
+    webservice.cpp
 
-HEADERS  += gopher.h
+HEADERS  += gopher.h \
+    webservice.h
 
 FORMS    += gopher.ui
 

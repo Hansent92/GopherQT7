@@ -18,6 +18,8 @@
 #include <QResource>
 #include <QDesktopServices>
 #include <QUrl>
+#include <QtNetwork/QNetworkAccessManager>
+#include <QtNetwork/QNetworkRequest>
 
 Gopher::Gopher(QWidget *parent) :
     QMainWindow(parent),
