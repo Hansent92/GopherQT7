@@ -14,10 +14,6 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         gopher.cpp \
-    instrument.cpp \
-    imagemode.cpp \
-    save.cpp \
-    import.cpp \
     importweb.cpp
 
 HEADERS  += gopher.h \
